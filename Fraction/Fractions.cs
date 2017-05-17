@@ -21,8 +21,11 @@ namespace Fraction
                 if (value == 0) throw new ArgumentException("DEN should be  more then zero");
                 _den = value;
             }
-
         }
-
+        public Fraction()
+        {
+            Num = 0;
+            Den = 1;
+        }
     }
 }
