@@ -22,10 +22,16 @@ namespace Fraction
                 _den = value;
             }
         }
-        public Fraction()
+        public Fractions()
         {
             Num = 0;
             Den = 1;
+        }
+        public Fractions(int numer, int denom)
+        {
+            Num = numer;
+            Den = denom;
+           
         }
     }
 }
